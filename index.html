@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activate Package</title>
     <link rel="stylesheet" href="styles.css">
+     <script>
+        function openPopup() {
+            window.open("https://whyiseverythingtaken321.github.io/activate-pkg/alert.html", "popupWindow", "width=600,height=400,scrollbars=yes");
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -22,7 +27,7 @@
                 <label for="activation_code">Activation Code:</label>
                 <input type="text" id="activation_code" name="activation_code" required>
             </div>
-            <button type="submit">Activate</button>
+            <button onclick="openPopup()" type="submit">Activate</button>
         </form>
     </div>
 </body>
